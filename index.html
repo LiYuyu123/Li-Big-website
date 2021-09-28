@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>国家公安合成作战平台</title>
+    <script>
+        const clientHeight=document.documentElement.clientHeight
+        const clientWidth=document.documentElement.clientWidth
+        window.pageWidth
+        if(clientWidth/clientHeight > 16/9){
+            pageWidth=clientHeight *(16/9)
+        }else {
+            pageWidth=clientWidth
+        }
+        const pageHeight=pageWidth / (16 / 9)
+        const string = `<style>html{
+      font-size: ${pageWidth / 100}px
+    }</style>`
+        document.write(string)
+    </script>
+    <script src="//at.alicdn.com/t/font_2841831_pehopms4ubb.js"></script>
+<script type="module" crossorigin src="./assets/index.4bd8c80b.js"></script>
+  <link rel="modulepreload" href="./assets/vendor.ab9ad8c7.js">
+  <link rel="stylesheet" href="./assets/index.92b7761b.css">
+</head>
+<body >
+<div id="root"></div>
+<script>
+    root.style.width = pageWidth + 'px'
+    root.style.height = pageHeight + 'px'
+    root.style.marginTop = (clientHeight - pageHeight) / 2 + 'px'
+</script>
+
+</body>
+</html>
